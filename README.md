@@ -7,11 +7,11 @@ To mount your remote disk using ssh protocal.
 
 1. Launch your Alfred, type `sshfs`, select the server to mount.
 
-![]()
+![alfred](https://github.com/liu946/alfredworkflow_sshfd/blob/master/doc/alfred.png?raw=true)
 
 2. Access your remote file at 'finder' locally.
 
-![]()
+![finder](https://github.com/liu946/alfredworkflow_sshfd/blob/master/doc/finder.png?raw=true)
 
 ## Installation
 
