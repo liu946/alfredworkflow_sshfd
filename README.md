@@ -16,11 +16,11 @@ To mount your remote disk using ssh protocal.
 ## Installation
 
 1. Make sure you have installed [Alfred](https://www.alfredapp.com/) and you can use the [Powerpack](https://www.alfredapp.com/powerpack/buy/).
-2. Download the workflow package
+2. Download the [workflow package](https://github.com/liu946/alfredworkflow_sshfd/blob/master/sshfs.alfredworkflow?raw=true).
 3. Double click the sshfs.alfredworkflow or drag it into Alfred Preference -> Workflows.
-4. Install `sshfs` (using `brew`, `apt-get`, `yum`, whatever...) and find it's absolute path (for me it is `/usr/local/bin/sshfs`)
-5. Double click the square which has a cloud-disk icon on it and rewrite the `SSHFS_PATH='/usr/local/bin/sshfs'` to your path in step 4.
-6. Rewrite the variable `RemoteDisk` by all your remote servers (you can login on them with sshkey without password) then save. You can refer the format as below.
+4. Install `sshfs` (using `brew`, `apt-get`, `yum`, whatever...) and find its absolute path (for me it is `/usr/local/bin/sshfs`)
+5. Double click the square which has a *cloud-disk* icon on it and rewrite the `SSHFS_PATH='/usr/local/bin/sshfs'` with your path in step 4.
+6. Rewrite the variable `RemoteDisk` by all your remote servers (you can login on them with sshkey without password, [how to do this](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)) then save. You can refer the format as below.
 
 ```
 RemoteDisk=(
